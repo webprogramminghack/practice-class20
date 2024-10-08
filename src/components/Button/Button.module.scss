@@ -1,0 +1,28 @@
+.button {
+  background: $black;
+  color: $white;
+  text-align: center;
+
+  &.primary {
+    background-color: #007bff;
+  }
+
+  &.secondary {
+    background-color: #6c757d;
+  }
+
+  &.large {
+    min-width: rem-calc(300);
+    line-height: rem-calc(70);
+  }
+
+  &.medium {
+    min-width: rem-calc(200);
+    line-height: rem-calc(50);
+  }
+
+  &.small {
+    min-width: rem-calc(100);
+    line-height: rem-calc(30);
+  }
+}
